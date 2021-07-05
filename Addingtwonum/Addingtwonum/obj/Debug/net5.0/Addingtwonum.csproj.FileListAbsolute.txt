@@ -1,0 +1,16 @@
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\Addingtwonum.exe
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\Addingtwonum.deps.json
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\Addingtwonum.runtimeconfig.json
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\Addingtwonum.runtimeconfig.dev.json
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\Addingtwonum.dll
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\ref\Addingtwonum.dll
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\bin\Debug\net5.0\Addingtwonum.pdb
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.csproj.AssemblyReference.cache
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.AssemblyInfoInputs.cache
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.AssemblyInfo.cs
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.csproj.CoreCompileInputs.cache
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.dll
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\ref\Addingtwonum.dll
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.pdb
+C:\Users\Arunachalam\source\repos\Addingtwonum\Addingtwonum\obj\Debug\net5.0\Addingtwonum.genruntimeconfig.cache

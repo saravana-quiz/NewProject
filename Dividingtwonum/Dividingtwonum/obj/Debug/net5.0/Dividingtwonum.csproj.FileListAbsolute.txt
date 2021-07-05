@@ -1,0 +1,16 @@
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\Dividingtwonum.exe
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\Dividingtwonum.deps.json
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\Dividingtwonum.runtimeconfig.json
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\Dividingtwonum.runtimeconfig.dev.json
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\Dividingtwonum.dll
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\ref\Dividingtwonum.dll
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\bin\Debug\net5.0\Dividingtwonum.pdb
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.csproj.AssemblyReference.cache
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.AssemblyInfoInputs.cache
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.AssemblyInfo.cs
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.csproj.CoreCompileInputs.cache
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.dll
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\ref\Dividingtwonum.dll
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.pdb
+C:\Users\Arunachalam\source\repos\Dividingtwonum\Dividingtwonum\obj\Debug\net5.0\Dividingtwonum.genruntimeconfig.cache
