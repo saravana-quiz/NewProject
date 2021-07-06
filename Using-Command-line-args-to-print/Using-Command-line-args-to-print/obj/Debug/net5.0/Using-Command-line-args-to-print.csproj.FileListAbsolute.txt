@@ -1,0 +1,16 @@
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\Using-Command-line-args-to-print.exe
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\Using-Command-line-args-to-print.deps.json
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\Using-Command-line-args-to-print.runtimeconfig.json
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\Using-Command-line-args-to-print.runtimeconfig.dev.json
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\Using-Command-line-args-to-print.dll
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\ref\Using-Command-line-args-to-print.dll
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\bin\Debug\net5.0\Using-Command-line-args-to-print.pdb
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.csproj.AssemblyReference.cache
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.AssemblyInfoInputs.cache
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.AssemblyInfo.cs
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.csproj.CoreCompileInputs.cache
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.dll
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\ref\Using-Command-line-args-to-print.dll
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.pdb
+C:\Users\Arunachalam\source\repos\Using-Command-line-args-to-print\Using-Command-line-args-to-print\obj\Debug\net5.0\Using-Command-line-args-to-print.genruntimeconfig.cache
