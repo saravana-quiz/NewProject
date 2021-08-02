@@ -1,0 +1,13 @@
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\bin\Debug\netcoreapp3.1\List Manipulation Assessment.exe
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\bin\Debug\netcoreapp3.1\List Manipulation Assessment.deps.json
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\bin\Debug\netcoreapp3.1\List Manipulation Assessment.runtimeconfig.json
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\bin\Debug\netcoreapp3.1\List Manipulation Assessment.runtimeconfig.dev.json
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\bin\Debug\netcoreapp3.1\List Manipulation Assessment.dll
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\bin\Debug\netcoreapp3.1\List Manipulation Assessment.pdb
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.csproj.AssemblyReference.cache
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.AssemblyInfoInputs.cache
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.AssemblyInfo.cs
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.csproj.CoreCompileInputs.cache
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.dll
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.pdb
+C:\Users\saravanag\source\repos\List Manipulation Assessment\List Manipulation Assessment\obj\Debug\netcoreapp3.1\List Manipulation Assessment.genruntimeconfig.cache
