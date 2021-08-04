@@ -1,0 +1,11 @@
+body{
+    background: rgb(170, 65, 255);
+}
+
+.listStudent
+{
+    margin: 20px;
+    border: 2px solid rgb(5, 5, 36);
+    padding: 10px;
+
+}

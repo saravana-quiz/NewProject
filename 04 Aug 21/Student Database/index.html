@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="Style.css">  
+<title>Form</title>
+</head>
+<body onload="DisplayDetails()">
+    <div class="container">
+        <div class="row justify-content-center" class="heading">
+            <div class="col-6">
+                <h1>Student Details</h1>
+            </div>
+        </div>
+        <form>
+            <div class="row mt-3 justify-content-start">
+                <div class="col -6 col-sm-2 align-self-center">
+                    <label class="col-form-label-lg" for="name">Student Name</label>
+                </div>
+                <div class=" col-6 col-sm-3 align-self-center">
+                    <input type="text" class="form-control" id="sname" name="name" placeholder="Enter Full Name">
+                </div>              
+            </div>
+            <div class="row justify-content-start mt-3">
+                <div class="col-6 col-sm-2 align-self-center">
+                    <label class="col-form-label-lg" for="class">Class</label>
+                </div>
+                <div class="col-6 col-sm-3 align-self-center">
+                    <input type="text" class="form-control" id="sclass" name="class" placeholder="Enter Class">
+                </div>
+            </div>
+            <div class="row justify-content-start mt-3">
+                <div class="col-6 col-sm-2 align-self-center">
+                    <label class="col-form-label-lg" for="rollnumber">Roll Number</label>
+                </div>
+                <div class="col-6 col-sm-3 align-self-center">
+                    <input type="number" class="form-control" id="rnumber" name="rollnumber" placeholder="Enter Roll Number">
+                </div>
+            </div>
+            <div class="row justify-content-start mt-3">
+                <div class="col-6 col-sm-2 align-self-center">
+                    <label class="col-form-label-lg" for="email">Email ID</label>
+                </div>
+                <div class="col-6 col-sm-3 align-self-center">
+                    <input type="email" class="form-control" id="eid" name="email" placeholder="Enter email address">
+                </div>
+            </div>
+            <div class="row justify-content-start mt-3">
+                <div class="col-6 col-sm-2 align-self-center">
+                    <label class="col-form-label-lg" for="dateofbirth">Date of Birth</label>
+                </div>
+                <div class="col-6 col-sm-3 align-self-center">
+                    <input type="date" class="form-control" id="dob" name="dateofbirth" placeholder="">
+                </div>
+            </div>
+            
+        </form>
+        <div class="row justify-content-lg-evenly">
+            <div class="col-3 col-sm-2">
+                <input class="btn btn-outline-light" onclick="StudentDetails()" type="button" value="SUBMIT">
+                <input class="btn btn-outline-light" onclick="DisplayDetails()" type="button" value="Display">
+            </div>
+        </div>
+    </div>
+    <div id="detail"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="Script.js"></script>
+</body>
+</html>
