@@ -1,0 +1,47 @@
+h1
+{
+    text-align:center;
+    background-color: rgba(26, 43, 117, 0.678);
+    min-height: 118px;
+    width: 1200px;
+    color: rgb(240, 241, 255);
+    font-family: cursive;
+    font-size: 188%;
+    border: 1px solid rgba(0, 0, 255, 0.212);
+    padding-top: 40px;
+    margin-bottom: 0%;
+    font-weight: 1000;    
+}
+
+table
+{
+    margin-top: 2px;
+    border: 15px solid rgb(8, 8, 59);
+    width: 1200px;
+    background-color: rgba(138, 95, 255, 0.651);
+    min-height: none;
+}
+
+tr
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+    border: 1px solid rgb(3, 3, 48);
+}
+
+td 
+{
+    font: bold;
+    border: 1px solid rgb(8, 8, 59) ;
+    padding: 20px;
+}
+
+table, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead
+{
+    font-weight: 800;
+}
