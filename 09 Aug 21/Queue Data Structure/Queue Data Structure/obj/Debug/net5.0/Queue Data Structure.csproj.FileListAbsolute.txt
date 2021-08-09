@@ -1,0 +1,16 @@
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.csproj.AssemblyReference.cache
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.AssemblyInfoInputs.cache
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.AssemblyInfo.cs
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.csproj.CoreCompileInputs.cache
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\Queue Data Structure.exe
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\Queue Data Structure.deps.json
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\Queue Data Structure.runtimeconfig.json
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\Queue Data Structure.runtimeconfig.dev.json
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\Queue Data Structure.dll
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\ref\Queue Data Structure.dll
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\bin\Debug\net5.0\Queue Data Structure.pdb
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.dll
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\ref\Queue Data Structure.dll
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.pdb
+C:\Users\saravanag\source\repos\Queue Data Structure\Queue Data Structure\obj\Debug\net5.0\Queue Data Structure.genruntimeconfig.cache
