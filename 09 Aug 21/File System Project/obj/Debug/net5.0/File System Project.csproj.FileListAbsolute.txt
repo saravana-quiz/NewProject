@@ -1,0 +1,16 @@
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.csproj.AssemblyReference.cache
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.AssemblyInfoInputs.cache
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.AssemblyInfo.cs
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.csproj.CoreCompileInputs.cache
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\File System Project.exe
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\File System Project.deps.json
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\File System Project.runtimeconfig.json
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\File System Project.runtimeconfig.dev.json
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\File System Project.dll
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\ref\File System Project.dll
+C:\Users\saravanag\source\repos\File System Project\File System Project\bin\Debug\net5.0\File System Project.pdb
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.dll
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\ref\File System Project.dll
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.pdb
+C:\Users\saravanag\source\repos\File System Project\File System Project\obj\Debug\net5.0\File System Project.genruntimeconfig.cache
