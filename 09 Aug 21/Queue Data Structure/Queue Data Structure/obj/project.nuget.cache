@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "RrCgGyMbzHESDGUqgxc4IIQFbOD6KXxUpUHrgtXgVMsL77bUy6Cfs9IrG8RvMBaqUH4dLdcetKRpzvHgxj6R3Q==",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\saravanag\\Desktop\\Training\\Assignments\\09 Aug 21\\Queue Data Structure\\Queue Data Structure\\Queue Data Structure.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "2VJzfy2fE/6NBUDp9lfASrdX0C0ZzLiSq5EFYy5fVzvs4HZvWELu+WEqK+NDN0l7OWUPXbFdBbHrxShbq9HsZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saravanag\\source\\repos\\Queue Data Structure\\Queue Data Structure\\Queue Data Structure.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> 023286ac01b25c83800fbf4677b9914ccde280d3
 }

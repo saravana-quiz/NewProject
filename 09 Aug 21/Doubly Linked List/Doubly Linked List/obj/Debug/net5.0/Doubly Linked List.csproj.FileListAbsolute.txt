@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.exe
 C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.deps.json
 C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.runtimeconfig.json
@@ -14,3 +15,21 @@ C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\
 C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\ref\Doubly Linked List.dll
 C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.pdb
 C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.genruntimeconfig.cache
+=======
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.exe
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.deps.json
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.runtimeconfig.json
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.runtimeconfig.dev.json
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.dll
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\ref\Doubly Linked List.dll
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\bin\Debug\net5.0\Doubly Linked List.pdb
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.csproj.AssemblyReference.cache
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.AssemblyInfoInputs.cache
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.AssemblyInfo.cs
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.csproj.CoreCompileInputs.cache
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.dll
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\ref\Doubly Linked List.dll
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.pdb
+C:\Users\saravanag\source\repos\Doubly Linked List\Doubly Linked List\obj\Debug\net5.0\Doubly Linked List.genruntimeconfig.cache
+>>>>>>> 023286ac01b25c83800fbf4677b9914ccde280d3
