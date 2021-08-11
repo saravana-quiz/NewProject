@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+h2
+{
+    color: rgb(11, 11, 77);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8%;
+
+}
+
+.hover-cursor
+{
+    cursor: pointer;
+}
+
+.jumbotron
+{
+  
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 20px;
+}
+
+body
+{
+    background-image: linear-gradient(to right, #a7d8e4, #ffffff, #abcbdd);
+}
+
+li
+{
+    background-color: #a7daf8;
+    border-radius: 8px;
+}

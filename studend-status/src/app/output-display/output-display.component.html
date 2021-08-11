@@ -1,0 +1,11 @@
+<app-input-form (onNameAdded)="OnUpdated($event)"></app-input-form>
+<div class="tasklist">
+    <ul class="list-group">
+        <li class="list-group-item mb-sm-2" *ngFor="let name of StudentList">
+            {{name}}  
+        </li>
+        <!-- <li class="list-group-item mb-sm-2" *ngFor="let status of status">
+            {{status}}  
+        </li> -->
+    </ul>
+</div>
