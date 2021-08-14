@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<div class="background">
+<app-book-form (bookCreated)="OnBookCreated($event)"></app-book-form>
+<div class="container mt-5">
+  <h1 class="head text-center">{{tableHead}}</h1>
+                <table class="table table-bordered">
+                  <body>
+                    <tr class="table-active">
+                        <th>Sl.No</th>
+                        <th>ISBN</th>
+                        <th>Picture</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr *ngFor="let book of books; let i = index">
+                        <td>{{i + 1}}</td>
+                        <td><a type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="OnGetId(i)">{{book.isbn}}</a></td>
+                        <td><img src="{{book.url}}"></td>
+                        <td class="booka">{{book.bookName}}</td>
+                        <td class="bookd">{{book.description}}</td>
+                        <td class="bookat">{{book.author}}</td>
+                        <td>{{book.price}}</td>    
+                    </tr>
+                  </body>
+                    
+                </table>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modify Book Details Here</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h6>Title - {{books[id].bookName}}</h6>
+                        <h6>ISBN - {{books[id].isbn}}</h6>                       
+                        <h6>Author - {{books[id].author}}</h6> 
+                        <label>Book Description</label>
+                        <textarea #description name="description" type="text" class="form-control" [(ngModel)]="bookDesc">{{books[id].description}}</textarea>                       
+                        <label>Price</label>
+                        <input #price name="price" type="number" value="{{books[id].price}}" class="form-control" >
+                        <div class="mb-3">
+                          <label for="formFileSm" class="form-label">Upload Book Image</label>
+                          <input class="form-control form-control-sm" id="formFileSm" type="file" (change)="selectFile($event)">
+                        </div>
+                      </div>                                         
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" (click)="OnUpdateOf(this.id,this.url,description.value,price.value)">Update Changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+</div>
+</div>
+   
+
+                

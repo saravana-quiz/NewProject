@@ -1,0 +1,65 @@
+body, html 
+{
+    height: 100%;
+}
+
+  .background 
+  {
+
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    height: 160%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h3
+{
+    color: rgb(14, 14, 61);
+    font-family:cursive;
+    text-shadow: darkblue;
+    font-size: 168%;
+    
+}
+h1
+{
+    color: rgb(57, 20, 92);
+    font-family:cursive;
+    text-shadow: rgb(14, 14, 29);
+    font-size: 208%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+ 
+
+th
+{
+    color: rgb(14, 14, 61);
+    font-family:cursive;
+    text-shadow: darkblue;
+    font-size: 118%;
+
+}
+
+td
+{
+    color:rgb(88, 37, 88);
+}
+
+h5
+{
+    font-family: cursive;
+}
+
+.booka
+{
+    font-family:cursive;
+    font-size: 108%;
+    width: 16%;
+    color: rgb(11, 17, 100);
+}
+
+.bookd
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
