@@ -1,0 +1,16 @@
+<h6>Title - {{bookList[id].bookName}}</h6>
+<h6>ISBN - {{bookList[id].isbn}}</h6>                       
+<h6>Author - {{bookList[id].author}}</h6> 
+<label>Book Description</label>
+<textarea #description name="description" type="text" class="form-control">{{bookList[id].description}}</textarea>                       
+<label>Price</label>
+<input #price name="price" type="number" value="{{bookList[id].price}}" class="form-control">
+<div class="mb-3">
+    <label for="formFileSm" class="form-label">Upload Book Image</label>
+    <input class="form-control form-control-sm" id="formFileSm" type="file" (change)="selectFile($event)">
+</div>
+<div class="row">
+    <div class="col-12">
+        <button type="button" class="btn btn-primary" (click)="OnUpdateOf(this.id,this.url,description.value,price.value)">Update Changes</button>
+    </div>
+</div>

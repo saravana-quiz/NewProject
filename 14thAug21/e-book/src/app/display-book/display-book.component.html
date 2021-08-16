@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12">
+                <h1 class="head text-center">Book List Table</h1>
+                              <table class="table table-bordered">
+                                <body>
+                                  <tr class="table-active">
+                                      <th>Sl.No</th>
+                                      <th>ISBN</th>
+                                      <th>Picture</th>
+                                      <th>Title</th>
+                                      <th>Description</th>
+                                      <th>Author</th>
+                                      <th>Price</th>
+                                  </tr>
+                                  <tr *ngFor="let book of bookList; let i = index">
+                                      <td>{{i + 1}}</td>
+                                      <td><a type="button" routerLink="/book-detail" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="OnSetId(i)">{{book.isbn}}</a></td>
+                                      <td><img src="{{book.url}}"></td>
+                                      <td class="booka">{{book.bookName}}</td>
+                                      <td class="bookd">{{book.description}}</td>
+                                      <td class="bookat">{{book.author}}</td>
+                                      <td>{{book.price}}</td>    
+                                  </tr>
+                                </body>                                 
+                              </table>                  
+        </div>
+    </div>
+<!-- <app-add-book (bookCreated)="OnBookCreated($event)"></app-add-book> -->

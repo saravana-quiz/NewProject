@@ -63,3 +63,13 @@ h5
 {
     font-family:Arial, Helvetica, sans-serif;
 }
+
+.modal-header
+{
+    background-color: rgba(167, 188, 255, 0.781);
+}
+
+.modal-content
+{
+    background-color: rgba(213, 218, 243, 0.952);
+}
