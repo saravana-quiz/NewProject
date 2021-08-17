@@ -11,7 +11,7 @@ export class InputFormComponent implements OnInit {
 
   fName='';
   lName='';
-  mobile=0;
+  mobile='';
   mail='';
   homeAdd='';
   countryName='';
@@ -19,7 +19,7 @@ export class InputFormComponent implements OnInit {
 
   
 
-  @Output() Profile:any=new EventEmitter<{firstName:string,lastName:string,phoneNumber:number,emailId:string,address:string,country:string,city:string}>();
+  @Output() Profile:any=new EventEmitter<{firstName:string,lastName:string,phoneNumber:any,emailId:string,address:string,country:string,city:string}>();
 
   onAddProfile()
   {
@@ -72,7 +72,7 @@ export class InputFormComponent implements OnInit {
   onSubmit(form:any)
   {
     this.lName='';
-    this.mobile=0;
+    this.mobile='';
     this.mail='';
     this.homeAdd='';
     this.countryName='';

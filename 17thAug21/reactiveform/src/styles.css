@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.background
+{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    background-image: cover;
+    background-repeat:no-repeat;
+    height: 1024px;
+
+}

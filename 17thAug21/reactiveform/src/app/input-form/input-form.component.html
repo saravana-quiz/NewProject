@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <div class="row justify-content-center">
-  <div class="col-12">
+    <div class="col-sm-4">
+        <h1>Profile Form</h1>
+    </div>
+</div>
+<div class="row justify-content-center">
+  <div class="col-12 col-sm-8">
     <form [formGroup]="profileForm" #Form="ngForm" (ngSubmit)="onSubmit('Form')">
         <div class="form-Group">
             <div class="row justify-content-center mt-3">
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-8">
                     <label for="first-name">First Name: </label>
-                    <input id="first-name" type="text" formControlName="firstName" [(ngModel)]="fName">
+                    <div class="col-12 col-sm-8">
+                        <input id="first-name" type="text" class="form-control" formControlName="firstName" placeholder="Enter first name" [(ngModel)]="fName">
                     <div *ngIf="!profileForm.get('firstName').valid && profileForm.get('firstName').touched" class="help-block">First Name is required</div>
+                    </div>                   
                 </div>
             </div>
-            <div class="row justify-content-center mt-3">
-                <div class="col-sm-4">
-                    <label for="last-name">Last Name: </label>
-                    <input id="last-name" type="text" formControlName="lastName" [(ngModel)]="lName">
-                    <div *ngIf="!profileForm.get('lastName').valid && profileForm.get('lastName').touched" class="help-block">Last Name is required</div>
+            <div class="form-Group">
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-sm-8">
+                        <label for="last-name">Last Name: </label>
+                <div class="col-12 col-sm-8">
+                    <input id="last-name" type="text" class="form-control" formControlName="lastName" placeholder="Enter last name" [(ngModel)]="lName">
+                        <div *ngIf="!profileForm.get('lastName').valid && profileForm.get('lastName').touched" class="help-block">Last Name is required                          
+                        </div>
+                </div>                             
+                    </div>
                 </div>
-            </div>
+            </div>          
             <div class="row justify-content-center mt-3">
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-8">
                     <label for="phone">Phone Number:</label>
-                    <input id="phone" type="number" formControlName="phoneNumber" [(ngModel)]="mobile">
+                    <input id="phone" type="number" class="form-control" formControlName="phoneNumber" placeholder="Enter phone number" [(ngModel)]="mobile">
                     <div *ngIf="!profileForm.get('phoneNumber').valid && profileForm.get('phoneNumber').touched " class="help-block">Phone Number is required</div>
                     
                 </div>
             </div>
             <div class="row justify-content-center mt-3">
-                <div class="col-sm-4">
-                    <label for="email">Email Address:</label>
-                    <input id="email" type="email" formControlName="emailId" [(ngModel)]="mail">
+                <div class="col-12 col-sm-8">
+                    <label for="exampleInputEmail1">Email Address:</label>
+                    <input id="email" type="email" class="form-control" formControlName="emailId" placeholder="Enter email address" [(ngModel)]="mail">
                     <div *ngIf="!profileForm.get('emailId').valid && profileForm.get('emailId').touched" class="help-block">Email Id is required</div>
                 </div>
             </div>
             <div class="row justify-content-center mt-3">
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-8">
                     <label for="address">Residential Address:</label>
-                    <textarea id="address" type="text" formControlName="Address" [(ngModel)]="homeAdd"></textarea> 
+                    <textarea id="address" type="text" class="form-control" formControlName="Address" placeholder="Enter residential address" [(ngModel)]="homeAdd"></textarea> 
                     <div *ngIf="!profileForm.get('Address').valid && profileForm.get('Address').touched" class="help-block">Address is required</div>
                 </div>
             </div>
             <div class="row justify-content-center mt-3">
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-8">
                     <label>Country</label>
                     <div title="Please select the country">
-                        <select placeholder="Phantasyland" formControlName="Country" (change)="changeCountry($event)" [(ngModel)]="countryName">
+                        <select placeholder="Phantasyland" class="form-select" formControlName="Country" (change)="changeCountry($event)" [(ngModel)]="countryName">
                             <option *ngFor ="let count of countryList" [value]="count.name" >{{count.name}} </option>
                         </select>
                     </div>
 
                     <label>City</label>
                     <div title="Please select the city">
-                        <select placeholder="Anycity" formControlName="City" [(ngModel)]="cityName">
+                        <select placeholder="Anycity" class="form-select" formControlName="City" [(ngModel)]="cityName">
                             <option *ngFor ="let city of cities">{{city}}  </option>
                         </select>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-sm-4">
-                    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+            <div class="row justify-content-center mt-4 mb-4">
+                <div class="col-12 col-sm-8">
+                    <button type="submit" class="btn btn-primary" [disabled]="!profileForm.valid">Submit</button>
                 </div>
             </div>
         </div>
