@@ -36,7 +36,6 @@ export class InputFormComponent implements OnInit {
       'firstName':new FormControl(null,Validators.required),
       'lastName':new FormControl(null,Validators.required),
       'phoneNumber':new FormControl(null,Validators.compose([Validators.required,Validators.pattern('[- +()0-9]+')])),
-
       'emailId':new FormControl(null, Validators.compose([
         Validators.required,
         Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')
@@ -44,7 +43,6 @@ export class InputFormComponent implements OnInit {
       'Address':new FormControl(null,Validators.required),
       'Country':new FormControl(null,Validators.required),
       'City':new FormControl(null,Validators.required),
-
 
     // })
     });
@@ -66,7 +64,6 @@ export class InputFormComponent implements OnInit {
   {
     this.cities = this.countryList.find(con => con.name == count.target.value).cities;
     //console.log(this.cities);
-  
   }
 
   onSubmit(form:any)
