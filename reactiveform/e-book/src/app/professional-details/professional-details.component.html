@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<div class="row justify-content-center mt-4 mt-2">
+    <div class="col-sm-5">
+        <h1>Professional Details</h1>
+    </div>
+</div>
+<div class="row justify-content-center">
+  <div class="col-12 col-sm-8">
+    <form [formGroup]="ProfessionalForm" (ngSubmit)="onSubmit()">
+
+        <div class="form-Group"> 
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="empQualification">Qualification:</label>
+                    <input id="empQualification" type="text" class="form-control" formControlName="qualification" placeholder="Enter qualification">
+                    <div *ngIf="!ProfessionalForm.get('qualification').valid && ProfessionalForm.get('qualification').touched" class="help-block">Qualification is required</div>
+                    
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="phone">Phone Number:</label>
+                    <input id="phone" type="number" class="form-control" formControlName="phoneNumber" placeholder="Enter phone number">
+                    <div *ngIf="!ProfessionalForm.get('phoneNumber').valid && ProfessionalForm.get('phoneNumber').touched" class="help-block">Phone Number is required</div>
+                    
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="exampleInputEmail1">Professional Email Id:</label>
+                    <input id="pemail" type="email" class="form-control" formControlName="pemailId" placeholder="Enter email address">
+                    <div *ngIf="!ProfessionalForm.get('pemailId').valid && ProfessionalForm.get('pemailId').touched" class="help-block">Email Id is required</div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="exp">Experience: </label>
+                        <input id="exp" type="number" class="form-control" formControlName="experience" placeholder="Enter Experience in years">
+                    <div *ngIf="!ProfessionalForm.get('experience').valid && ProfessionalForm.get('experience').touched" class="help-block">Experience is required</div>                 
+                </div>
+            </div>
+            <div class="offset-md-6 col-md-4 mt-4">
+                <p align="right">
+                    <button type="button" class="btn btn-primary" (click)="addSkillButtonClick()">
+                        Add Company
+                      </button>
+                </p>
+              </div>
+            <div formArrayName="preCompany" *ngFor="let exp of ProfessionalForm.get('preCompany')['controls']; let i = index">
+                <div [formGroupName]="i">
+                    <div class="form-Group">
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-12 col-sm-8">
+                                <label for="c-name">Company Name: </label>
+                            <input id="c-name" type="text" class="form-control" formControlName="cname" placeholder="Enter Company name">
+                                <!-- <div *ngIf="!ProfessionalForm.get('cname').valid && ProfessionalForm.get('cname').touched" class="help-block">Company name is required                          
+                                </div> -->                           
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-12 col-sm-8">
+                                <label for="designation">Designation: </label>
+                                    <input id="designation" type="text" class="form-control" formControlName="empdesignation" placeholder="Enter Designaton">
+                                <!-- <div *ngIf="!ProfessionalForm.get('empdesignation').valid && ProfessionalForm.get('empdesignation').touched" class="help-block">Designation is required</div>                  -->
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                </div>
+
+            <div class="row justify-content-center mt-4 mb-4">               
+                <div class="col-12 col-sm-8">
+                    
+                    <p align="right">
+                    <button type="submit" class="btn btn-primary btn-lg" [disabled]="!ProfessionalForm.valid">Next</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </form>
+  </div>
+</div>
+
+

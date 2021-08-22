@@ -1,0 +1,23 @@
+<div class="border">
+  <div class="row">
+    <div class="d-flex align-items-start">
+    <div class="col-sm-2">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" routerLinkActive="active" routerLink='/personal-details'>Personal Details</button>
+        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" routerLinkActive="active" routerLink='/professional-details'>Professional Details</button>
+        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" routerLinkActive="active" routerLink='/attachments'>Document Attachments</button>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div><router-outlet></router-outlet></div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+

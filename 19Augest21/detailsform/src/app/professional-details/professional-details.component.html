@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<div class="row justify-content-center">
+    <div class="col-sm-8">
+        <h1>Professional Details</h1>
+    </div>
+</div>
+<div class="row justify-content-center">
+  <div class="col-12 col-sm-8">
+    <form [formGroup]="ProfessionalForm">
+        <div class="form-Group">
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="designation">Designation: </label>
+                        <input id="designation" type="text" class="form-control" formControlName="empdesignation" placeholder="Enter first name" [(ngModel)]="designation">
+                    <div *ngIf="!profileForm.get('empdesignation').valid && profileForm.get('empdesignation').touched" class="help-block">Designation is required</div>                 
+                </div>
+            </div>
+            <div class="form-Group">
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-sm-8">
+                        <label for="app-date">Date of Appointment: </label>
+                    <input id="app-date" type="text" class="form-control" formControlName="appdate" placeholder="Enter appointment date" [(ngModel)]="appdate">
+                        <div *ngIf="!profileForm.get('appdate').valid && profileForm.get('appdate').errors?.pattern" class="help-block">Appoinment date is required                          
+                        </div>                           
+                    </div>
+                </div>
+            </div>          
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="empQualification">Qualification:</label>
+                    <input id="empQualification" type="number" class="form-control" formControlName="qualification" placeholder="Enter qualification" [(ngModel)]="qualification">
+                    <div *ngIf="!profileForm.get('qualification').valid && profileForm.get('qualification').errors?.pattern " class="help-block">Qualification is required</div>
+                    
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="phone">Phone Number:</label>
+                    <input id="phone" type="number" class="form-control" formControlName="phoneNumber" placeholder="Enter phone number" [(ngModel)]="empmobile">
+                    <div *ngIf="!profileForm.get('phoneNumber').valid && profileForm.get('phoneNumber').errors?.pattern " class="help-block">Phone Number is required</div>
+                    
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8">
+                    <label for="exampleInputEmail1">Professional Email Id:</label>
+                    <input id="pemail" type="email" class="form-control" formControlName="pemailId" placeholder="Enter email address" [(ngModel)]="pmail">
+                    <div *ngIf="!profileForm.get('pemailId').valid && profileForm.get('pemailId').touched" class="help-block">Email Id is required</div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mt-4 mb-4">
+                <div class="col-12 col-sm-8">
+                    <button type="submit" class="btn btn-primary" [disabled]="!ProfessionalForm.valid">Next</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+  </div>
+
+</div>
