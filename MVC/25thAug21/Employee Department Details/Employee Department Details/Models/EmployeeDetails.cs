@@ -23,5 +23,7 @@ namespace Employee_Department_Details.Models
         public int DepartmentId { get; set; }
         
         public DateTime HireDate { get; set; }
+
+        public bool Status { get; set; }
     }
 }

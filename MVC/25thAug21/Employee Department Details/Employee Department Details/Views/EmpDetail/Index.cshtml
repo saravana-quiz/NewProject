@@ -6,16 +6,6 @@
 }
 @model IEnumerable<EmployeeDetails>
 
-<!DOCTYPE html>
-
-<html>
-<head>
-<meta name="viewport" content="width=device-width" />
-<title>Index</title>
-<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
 <div class="row">
     <div class="col-6">
         <h4>Employee Details</h4>
@@ -50,6 +40,9 @@
                         Hire Date
                     </th> 
                     <th>
+                        Status
+                    </th>
+                    <th>
                         Edit
                     </th>
                     <th>
@@ -76,12 +69,15 @@
                     <td width="15%">
                         @item.HireDate
                     </td>
+                    <td>
+                        <a asp-action="Status" asp-route-id="@item.Id" class="btn btn-primary">Active</a>
+                    </td>
                     <td width="15%">
-                        <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+                        <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
                     </td>
                     <td width="15%">
                         <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary"
-                           onclick="return confirm('Are you Sure to delete the Data')"><i class="fa fa-trash"></a>
+                           onclick="return confirm('Are you Sure to delete the Data')">Delete</a>
                     </td>
                 </tr>
                 }

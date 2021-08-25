@@ -20,7 +20,11 @@ namespace Employee_Department_Details.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<EmployeeDetails> EmployeeList = _db.EmployeeInfo;
+            var EmployeeList = from item in _db.EmployeeInfo 
+                               where item.Status == true 
+                               select item;
+
+            //IEnumerable<EmployeeDetails> EmployeeList = _db.EmployeeInfo;
 
             return View(EmployeeList);
         }
@@ -56,42 +60,66 @@ namespace Employee_Department_Details.Controllers
                 return NotFound();
             }
 
-            var objBook = _db.EmployeeInfo.FirstOrDefault(x => x.Id == id);
-            if (objBook == null)
+            var objEmp = _db.EmployeeInfo.FirstOrDefault(x => x.Id == id);
+            if (objEmp == null)
             {
                 return NotFound();
             }
 
-            return View(objBook);
+            return View(objEmp);
 
         }
 
         [HttpPost]
-        public IActionResult Update(EmployeeDetails objBook)
+        public IActionResult Update(EmployeeDetails objEmp)
         {
             if (ModelState.IsValid)
             {
-                _db.EmployeeInfo.Update(objBook);
+                _db.EmployeeInfo.Update(objEmp);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(objBook);
+            return View(objEmp);
 
         }
 
         public IActionResult Delete(int? id)
         {
-            var objBook = _db.EmployeeInfo.Find(id);
-            if (objBook == null)
+            var objEmp = _db.EmployeeInfo.Find(id);
+            if (objEmp == null)
             {
                 return NotFound();
             }
 
-            _db.EmployeeInfo.Remove(objBook);
+            _db.EmployeeInfo.Remove(objEmp);
             _db.SaveChanges();
 
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Status(int? id)
+        {
+            var objEmp = _db.EmployeeInfo.Find(id);
+            var Empstatus = new EmployeeDetails
+            {
+                Id = objEmp.Id,
+                Name = objEmp.Name,
+                Designation = objEmp.Designation,
+                DepartmentId = objEmp.DepartmentId,
+                Status = !objEmp.Status
+            };
+
+            if (ModelState.IsValid)
+            {
+                _db.EmployeeInfo.Remove(objEmp);
+                _db.EmployeeInfo.Update(Empstatus);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(objEmp);
+
         }
 
     }
