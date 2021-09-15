@@ -9,7 +9,7 @@ using PagedList.Core;
 
 namespace Employee_Department_Details.Models
 {
-    [Table("EmployeeDetails")]
+    
     public class EmployeeDetails
     {
         public int Id { get; set; }

@@ -21,7 +21,7 @@ namespace Employee_Department_Details.Controllers
 
         }
         [HttpGet]
-        public ActionResult Index(string searchText, string sortOrder, int? page)
+        public ActionResult Index(string searchText, string sortOrder)
         {
             ViewData["IdSortParam"] = sortOrder == "Id" ? "id_desc" : "id_asc";
             ViewData["NameSortParam"] = sortOrder == "Name" ? "name_desc" : "name_asc";
@@ -61,9 +61,7 @@ namespace Employee_Department_Details.Controllers
                 //    EmployeeList = EmployeeList.OrderBy(x => x.Id);
                 //    break;
             }
-
             
-
             return View(EmployeeList);
         }
         public IActionResult Create()
